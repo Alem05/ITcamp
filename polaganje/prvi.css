@@ -1,0 +1,45 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/search.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/smile.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(41, 37, 37);
+  display: flex;
+}
+.input {
+  flex-grow: 1;
+  display: flex;
+  height: 4vh;
+  margin-top: 1.5vh;
+  justify-content: center;
+}
+.naslov {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.ikone {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  gap: 5%;
+}
+.ikone a {
+  margin-top: 6px;
+  background-color: transparent;
+  color: white;
+}
+.tekst {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
