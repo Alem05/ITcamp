@@ -47,11 +47,12 @@
 //     niz.push(niz[i-1]+niz[i-2])
 // }
 
-function fibo(n) {
-  let niz = [1, 1];
-  for (i = 2; i <= n; i++) {
-    niz.push(niz[i - 1] + niz[i - 2]);
-  }
-  return niz;
-}
-fibo(7);
+// function fibo(n) {
+//   let niz = [1, 1];
+//   for (i = 2; i <= n; i++) {
+//     niz.push(niz[i - 1] + niz[i - 2]);
+//   }
+//   return niz;
+// }
+// fibo(7);
+///////////////////////////////////////////////////////////////

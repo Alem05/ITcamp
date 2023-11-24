@@ -268,16 +268,20 @@
 
 ///////////////////////////////////////////////9.18
 
-function suma(n) {
-  return (n % 10) + (Math.floor(n / 10) % 10) + (Math.floor(n / 100) % 10);
-}
-function nivenov(n) {
-  if (n % suma(n) === 0) return true;
-  return false;
-}
+// function suma(n) {
+//   return (n % 10) + (Math.floor(n / 10) % 10) + (Math.floor(n / 100) % 10);
+// }
+// function nivenov(n) {
+//   if (n % suma(n
+//     ) === 0) return true;
+//   return false;
+// }
 
-for (let i = 101; i < 200; i++) {
-  if (nivenov(i)) {
-    console.log(i);
-  }
-}
+// for (let i = 101; i < 200; i++) {
+//   if (nivenov(i)) {
+//     console.log(i);
+//   }
+// }
+///////////////////////////////////9.27
+
+
